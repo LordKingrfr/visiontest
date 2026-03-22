@@ -1,0 +1,19 @@
+{
+  "name": "site_precision",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "build:css": "tailwindcss -i ./styles.css -o ./output.css --minify",
+    "watch:css": "tailwindcss -i ./styles.css -o ./output.css --watch",
+    "build": "npm run build:css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17"
+  }
+}
