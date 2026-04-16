@@ -24,7 +24,7 @@ const sb = createClient(
 // ===== BOT URL CONFIGURATION =====
 // Para testes locais, use: "http://localhost:8080"
 // Para produção/túnel, use a URL do ngrok/cloudflare ex: "https://seu-tunnel.com"
-const BOT_URL = "https://frank-preceding-salem-stat.trycloudflare.com";
+const BOT_URL = "https://decimal-become-set-lauderdale.trycloudflare.com";
 
 // ===== TRANSLATIONS =====
 const TR = {
